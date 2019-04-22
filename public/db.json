@@ -3,7 +3,7 @@
       {
         "id": 1,
         "title": "Lavendar Bath Bomb",
-        "description": "Sphynx Tie Dye Grey",
+        "description": "Cute purple lavander infused bath bomb also CBD infused.",
         "price": 10,
         "isFreeShipping": true
       },
@@ -11,40 +11,40 @@
       {
         "id": 2,
         "title": "Charcoal CBD Infused Bath Soap",
-        "description": "Danger Knife Grey",
-        "price": 14.9,
+        "description": "Cute purple lavander infused bath bomb also CBD infused.",
+        "price": 14.99,
         "isFreeShipping": true
       },
   
       {
         "id": 3,
         "title": "Rosey Shampoo Bar",
-        "description": "White DGK Script",
-        "price": 14.9,
+        "description": "Cute purple lavander infused bath bomb also CBD infused.",
+        "price": 8.99,
         "isFreeShipping": true
       },
   
       {
         "id": 4,
         "title": "Southern Tiing",
-        "description": "Born On The Streets",
-        "price": 25.9,
+        "description": "Cute purple lavander infused bath bomb also CBD infused.",
+        "price": 14.99,
         "isFreeShipping": false
       },
   
       {
         "id": 5,
         "title": "HTX Butterbar",
-        "description": "Tso 3D Short Sleeve",
-        "price": 10.9,
+        "description": "Cute purple lavander infused bath bomb also CBD infused.",
+        "price": 9.99,
         "isFreeShipping": false
       },
   
       {
         "id": 6,
         "title": "8th Wonder",
-        "description": "Man Tie Dye Cinza Grey",
-        "price": 49.9,
+        "description": "Cute purple lavander infused bath bomb also CBD infused.",
+        "price": 18.88,
         "isFreeShipping": false
       },
   
@@ -52,8 +52,8 @@
         "id": 7,
         "title": "LivWell in HTX",
         "description": "1977 Infantil",
-        "style": "Preto com listras brancas",
-        "price": 22.5,
+        "style": "Cute purple lavander infused bath bomb also CBD infused.",
+        "price": 14.99,
         "isFreeShipping": true
       }
     ]
