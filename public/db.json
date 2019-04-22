@@ -24,37 +24,14 @@
         "isFreeShipping": true
       },
   
-      {
-        "id": 4,
-        "title": "Southern Tiing",
-        "description": "Cute purple lavander infused bath bomb also CBD infused.",
-        "price": 14.99,
-        "isFreeShipping": false
-      },
+
   
       {
         "id": 5,
-        "title": "HTX Butterbar",
-        "description": "Cute purple lavander infused bath bomb also CBD infused.",
-        "price": 9.99,
-        "isFreeShipping": false
-      },
-  
-      {
-        "id": 6,
         "title": "8th Wonder",
         "description": "Cute purple lavander infused bath bomb also CBD infused.",
         "price": 18.88,
         "isFreeShipping": false
-      },
-  
-      {
-        "id": 7,
-        "title": "LivWell in HTX",
-        "description": "1977 Infantil",
-        "style": "Cute purple lavander infused bath bomb also CBD infused.",
-        "price": 14.99,
-        "isFreeShipping": true
       }
     ]
   }
