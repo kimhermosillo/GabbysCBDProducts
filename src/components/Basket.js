@@ -5,10 +5,10 @@ export default class Basket extends Component {
         const { cartItems } = this.props;
 
         return (
-            <div className="alert alert-info">
+            <div className="filter">
                 {cartItems.length === 0
                     ? "Basket is empty" :
-                    <div>You have {cartItems.length} items in the basket. <hr /></div>
+                    <div>You have {cartItems.length} items in the basket.</div>
                 }
                 {cartItems.length > 0 &&
                     <div>
@@ -16,15 +16,15 @@ export default class Basket extends Component {
                             {cartItems.map(item => (
                                 <li key={item.id}>
                                     <b>{item.title}</b>
-                                    <button style={{ float: 'right' }} className="btn btn-danger btn-xs"
-                                        onClick={(e) => this.props.handleRemoveFromCart(e, item)}>X</button>
+                                    <button style={{ float: 'right' }}
+                                        onClick={(e) => this.props.handleRemoveFromCart(e, item)}>REMOVE</button>
                                     <br />
-                                    {item.count} X {util.formatCurrency(item.price)}
+                                    {item.count} REMOVE {util.formatCurrency(item.price)}
                                 </li>))
                             }
                         </ul>
 
-                        <b>Sum: {util.formatCurrency(cartItems.reduce((a, c) => (a + c.price * c.count), 0))}
+                        <b>Total: {util.formatCurrency(cartItems.reduce((a, c) => (a + c.price * c.count), 0))}
                         </b>
                         <button onClick={() => alert('Todo: Implement checkout page.')} className="btn btn-primary">checkout</button>
                     </div>

@@ -1,14 +1,16 @@
+
 import React, { Component } from 'react';
 import Products from './components/Products';
 import Filter from './components/Filter';
 import Basket from './components/Basket';
+
 
 import './App.css';
 
 class App extends Component {
   constructor() {
     super();
-    this.state = { size: '', sort: '', cartItems: [], products: [], filteredProducts: [] };
+    this.state = { sort: '', cartItems: [], products: [], filteredProducts: [] };
   }
   componentWillMount() {
 
@@ -62,9 +64,7 @@ class App extends Component {
       } else {
         state.products.sort((a, b) => (a.id > b.id) ? 1 : -1);
       }
-      if (state.size !== '') {
-        return { filteredProducts: state.products.filter(a => a.availableSizes.indexOf(state.size.toUpperCase()) >= 0) };
-      }
+
       return { filteredProducts: state.products };
     })
   }
@@ -72,26 +72,30 @@ class App extends Component {
     this.setState({ sort: e.target.value });
     this.listProducts();
   }
- 
+
 
   render() {
     return (
-      <div className="container">
-        <h1>Gabby's CBD Soaps</h1>
-        <hr />
-        <div className="row">
-          <div className="col-md-9">
-
-            <hr />
+      <container>
+     
+      <div className="header">
+          <h1>Gabby's CBD </h1>
+        </div>
+      <div className="everythingElse">
+        
+       
+       
+          <div className="products">
+            <Filter count={this.state.filteredProducts.length} handleSortChange={this.handleSortChange}
+            />
+          
             <Products products={this.state.filteredProducts} handleAddToCart={this.handleAddToCart} />
           </div>
-          <div className="col-md-3">
+          <div className="cart">
             <Basket cartItems={this.state.cartItems} handleRemoveFromCart={this.handleRemoveFromCart} />
           </div>
-
         </div>
-
-      </div>
+      </container>
     );
   }
 }
