@@ -26,7 +26,7 @@
 }
 
 button {
-  margin: 5%;
+  margin: 10%;
   height: 5vh;
 }
 
@@ -34,4 +34,8 @@ button {
   /* padding-top: 12vh; */
   position: center;
 
+}
+
+.remove {
+  float: right;
 }

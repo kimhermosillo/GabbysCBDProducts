@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 import Products from './components/Products';
 import Filter from './components/Filter';
 import Basket from './components/Basket';
-
+import gabbyHeader from './components/gabbyHeader'
 
 import './App.css';
 
@@ -74,14 +74,15 @@ class App extends Component {
   }
 
 
+
   render() {
     return (
       <container>
      
       <div className="header">
           <h1>Gabby's CBD </h1>
+         <img src={gabbyHeader} />
         </div>
-      <div className="everythingElse">
         
        
        
@@ -94,7 +95,7 @@ class App extends Component {
           <div className="cart">
             <Basket cartItems={this.state.cartItems} handleRemoveFromCart={this.handleRemoveFromCart} />
           </div>
-        </div>
+      
       </container>
     );
   }

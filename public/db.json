@@ -5,7 +5,8 @@
         "title": "Lavendar Bath Bomb",
         "description": "Cute purple lavander infused bath bomb also CBD infused.",
         "price": 10,
-        "isFreeShipping": true
+        "isFreeShipping": true,
+        "imageURL": "https://www.naturalsoapwholesale.com/Activated-Charcoal-Soap-Bar_p_1578.html"
       },
   
       {
@@ -13,7 +14,9 @@
         "title": "Charcoal CBD Infused Bath Soap",
         "description": "Cute purple lavander infused bath bomb also CBD infused.",
         "price": 14.99,
-        "isFreeShipping": true
+        "isFreeShipping": true,
+        "imageURL": ""
+
       },
   
       {
@@ -21,7 +24,9 @@
         "title": "Rosey Shampoo Bar",
         "description": "Cute purple lavander infused bath bomb also CBD infused.",
         "price": 8.99,
-        "isFreeShipping": true
+        "isFreeShipping": true,
+        "imageURL": ""
+
       },
   
 
@@ -31,7 +36,9 @@
         "title": "8th Wonder",
         "description": "Cute purple lavander infused bath bomb also CBD infused.",
         "price": 18.88,
-        "isFreeShipping": false
+        "isFreeShipping": false,
+        "imageURL": ""
+
       }
     ]
   }

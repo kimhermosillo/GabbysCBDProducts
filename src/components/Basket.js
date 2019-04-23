@@ -5,7 +5,7 @@ export default class Basket extends Component {
         const { cartItems } = this.props;
 
         return (
-            <div className="filter">
+            <div className="remove">
                 {cartItems.length === 0
                     ? "Basket is empty" :
                     <div>You have {cartItems.length} items in the basket.</div>
@@ -19,7 +19,7 @@ export default class Basket extends Component {
                                     <button style={{ float: 'right' }}
                                         onClick={(e) => this.props.handleRemoveFromCart(e, item)}>REMOVE</button>
                                     <br />
-                                    {item.count} REMOVE {util.formatCurrency(item.price)}
+                                    {item.count}  {util.formatCurrency(item.price)}
                                 </li>))
                             }
                         </ul>
