@@ -5,13 +5,14 @@ export default class Products extends Component {
 
 
         return (
+            <div>
             <div className="filter">
                 
                     {`${this.props.count} products found.`}
-                
+                </div>
     
                     <label>Choose your filter
-               <select className="filter" value={this.props.sort} onChange={this.props.handleSortChange}>
+               <select className="label" value={this.props.sort} onChange={this.props.handleSortChange}>
                             <option value="">Select</option>
                             <option value="lowestprice">Lowest to highest</option>
                             <option value="highestprice">Highest to lowest</option>

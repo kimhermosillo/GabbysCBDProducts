@@ -3,7 +3,8 @@ import React, { Component } from 'react';
 import Products from './components/Products';
 import Filter from './components/Filter';
 import Basket from './components/Basket';
-import gabbyHeader from './components/gabbyHeader'
+
+// import GabbyHeader from './GabbyHeader.png'
 
 import './App.css';
 
@@ -81,7 +82,7 @@ class App extends Component {
      
       <div className="header">
           <h1>Gabby's CBD </h1>
-         <img src={gabbyHeader} />
+        {/* <img src={GabbyHeader} alt="header"/> */}
         </div>
         
        
